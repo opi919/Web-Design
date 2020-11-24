@@ -1,0 +1,137 @@
+html{overflow-y:scroll;} /* Forces a scrollbar when the viewport 
+is larger than the websites content - CSS3 */
+body {
+	margin: 0px;
+	/* padding-top: 0px; */
+	padding: 0px;
+}
+h1, h2, h3, p {
+	color: grey;
+	font-weight: normal;
+	font-family: georgia,"Times New Roman";
+}
+a {
+	text-decoration: none;
+	color: grey;
+}
+.stable {
+	width: 1000px;
+	margin: 0 auto;
+}
+.header_area {
+	height: 80px;
+}
+.header {
+	padding-top: 12px;
+}
+.header_left {
+	width: 40%;
+	float: left;
+}
+.h1 {
+	line-height: 1%;
+	font-size: 33px;
+}
+.header_left h2 {
+	font-size: 15px;
+}
+.header_right {
+	width: 60%;
+	float: right;
+}
+.header_right ul {
+	list-style: none;
+}
+.header_right li {
+	float: left;
+}
+.button1 {
+	font-size: 15px;
+	padding: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: white;
+	border: none;
+	color: grey;
+	box-shadow: 0px 1px rgba(0,0,0,0.2),0px -1px rgba(0,0,0,0.2);
+}
+.button1:hover{
+	background:white;
+	color:orange;
+	cursor:pointer;
+}
+.intro {
+	
+}
+.intro_area {
+	padding-top: 40px;
+	height: 397px;
+}
+.footer_area {
+	height: 350px;
+}
+.footer{}
+.content {
+	width: 29%;
+	float: left;
+	padding-right: 40px;
+}
+.content h2 {
+	font-size: 14px;
+	font-weight: bolder;
+}
+.content_img{}
+.content_img img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	padding-right: 10px;
+}
+.content_img p {
+	width: 262px;
+	height: 266px;
+}
+.para {
+	float: right;
+	font-size: 12px;
+}
+.acolor {
+	color: orange;
+}
+.button2 {
+	width: 942px;
+	height: 362px;
+	color: orange;
+	background: white;
+	border: none;
+}
+.button2:hover{
+	
+	cursor:pointer;
+	box-shadow: 0px 0px 0px 1px rgba(228, 132, 10, 0.82),0px 0px 0px 1px rgba(228, 132, 10, 0.82);
+}
+.imgcntrl {
+	width: 917px;
+	height: 332px;
+}
+.copyright_area {
+	padding-top: 40px;
+	height: 45px;
+}
+.copyright{}
+.copyright_left {
+	width: 50%;
+	float: left;
+}
+.copyright_left p {
+	font-size: 12px;
+}
+.copyright_right {
+	width: 50%;
+	float: right;
+}
+.copyright_right p {
+	font-size: 12px;
+	/* padding-right: 62px; */
+	padding-left: 297px;
+}
