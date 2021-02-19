@@ -1,0 +1,32 @@
+body{
+ background: url('images/background.jpeg')no-repeat;
+ background-size: cover ;
+}
+h1{
+    font-size: 4rem;
+    /* margin-top: -10rem; */
+    font-weight: normal;
+}
+.countdown-container{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction:column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.countdown-container-1{
+    display: flex;
+    flex-direction: row;
+}
+.big-text{
+    font-size: 6rem;
+    line-height:1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown-container div span{
+   font-size: 1.5rem;
+   font-weight: bold;
+}
