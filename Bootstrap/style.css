@@ -1,0 +1,36 @@
+body{
+	font-family:'arvo',serif;
+}
+.height
+{
+	min-height:100vh;
+}
+.title-underline{
+	width:200px;
+	height:10px;
+	margin:0 auto;
+}
+/* height for project underline */
+.title-underline1{   
+	width:300px;
+	height:10px;
+	margin:0 auto;
+}
+.height-80
+{
+	min-height:80vh;
+}
+.about-pic{
+	background:url(images/img1.JPG)center/cover no-repeat fixed;
+	/* background-size:cover; */
+	/* background-position:center; */
+	/* background-repeat:no-repeat; */
+	/* background-attachment:fixed;*/     /*for fixed the background */
+}
+#filler{
+	background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(images/img1.jpg) fixed ;
+	/* to-left/right/top for gradient style */
+}
+#progress {
+	background: #000000b5;
+}
